@@ -66,7 +66,7 @@ The structure of datasets is as follows:
 ```
 
 ### Prepare pretrained backbone
-The pre-trained backbone can be downloaded from [Segformer-b0 backbone](), [Segformer-b1 backbone](), [Segformer-b2 backbone](), [Segformer-b3 backbone](), [Segformer-b4 backbone](), [Segformer-b5 backbone](),  and revise the path of pretrained backbone in ```utils/utils.py/create_model```.
+The pre-trained backbone can be downloaded from [Segformer-b0 backbone](), [Segformer-b1 backbone](), [Segformer-b2 backbone](), [Segformer-b3 backbone](), [Segformer-b4 backbone](), [Segformer-b5 backbone](),  and revise the path of pretrained backbones in ```utils/utils.py/create_model```.
 
 ### Train
 - First, train the model using the YouTubeVOS-2018, DAVIS-2016 datasets.

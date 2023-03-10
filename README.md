@@ -66,7 +66,7 @@ The structure of datasets is as follows:
 ```
 
 ### Prepare pretrained backbone
-The pre-trained backbone can be downloaded from [Segformer-b0 backbone](), [Segformer-b1 backbone](), [Segformer-b2 backbone](), [Segformer-b3 backbone](), [Segformer-b4 backbone](), [Segformer-b5 backbone](),  and revise the path of pretrained backbones in ```utils/utils.py/create_model```.
+The pre-trained backbone can be downloaded from [Segformer-b0 backbone](https://anonymfile.com/8p2KA/segformer-b0.zip), [Segformer-b1 backbone](https://anonymfile.com/rNbRx/segformer-b1.zip), [Segformer-b2 backbone](https://anonymfile.com/k0a9Q/segformer-b2.zip), [Segformer-b3 backbone](https://anonymfile.com/4YE4O/segformer-b3.zip), [Segformer-b4 backbone](https://anonymfile.com/392mK/segformer-b4.zip), [Segformer-b5 backbone](https://anonymfile.com/1J2rY/segformer-b5.zip),  and revise the path of pretrained backbones in ```utils/utils.py/create_model```.
 
 ### Train
 - First, train the model using the YouTubeVOS-2018, DAVIS-2016 datasets.
@@ -90,7 +90,7 @@ python test.py --img_size 512 --save_dir runs/GFA/test --use_flip -v DAVIS-2016 
 
 ## Final weight
 
-- The final weight can be downloaded from [GFA]().
+- The final weight can be downloaded from [GFA](https://anonymfile.com/VxB6l/gfa.pth).
 
 ## Evaluation Metrics
 

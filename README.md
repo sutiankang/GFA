@@ -81,6 +81,8 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node 4 train.py --epochs 50 -t
 
 ## Test
 
+- The test datasets can be downloaded from [DAVIS-2016](https://davischallenge.org/davis2017/code.html), [FBMS](https://lmb.informatik.uni-freiburg.de/resources/datasets/moseg.en.html), [Youtube-objects](https://data.vision.ee.ethz.ch/cvl/youtube-objects/), [DAVSOD](https://github.com/DengPingFan/DAVSOD), [ViSal](), [SegTrack-V2](https://web.engr.oregonstate.edu/~lif/SegTrack2/dataset.html), [MCL](), [Robotic Instrument](). Besides, the stucture must be the same as training example.
+
 -   We can produce segmentation results in ```test.py```.
 ```
 python test.py --img_size 512 --save_dir runs/GFA/test --use_flip -v DAVIS-2016 --model segformer_b5 --is_binary --weights /your/final_weight/path

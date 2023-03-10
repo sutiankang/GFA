@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 ### Download Datasets
 In the paper, we use the following three public available dataset for training. Here are some steps to prepare the data:
-- [DAVIS-2016](https://davischallenge.org/davis2017/code.html): We use all the data in the train subset of DAVIS-16. However, please download DAVIS-17 dataset, it will automatically choose the subset of DAVIS-16 for training.
+- [DAVIS-2016](https://davischallenge.org/davis2017/code.html): We use all the data in the train subset of DAVIS-2016. However, please download DAVIS-2017 dataset, it will automatically choose the subset of DAVIS-2016 for training.
 - [YouTubeVOS-2018](https://youtube-vos.org/dataset/): We sample the training data every 10 frames as labeled data in YoutubeVOS-2018. You can sample any number of frames to train the model by modifying parameter ```--stride```.
 - [FBMS](https://lmb.informatik.uni-freiburg.de/resources/datasets/moseg.en.html): We only employ FBMS datasets for evaluating without any training.
 

@@ -4,7 +4,7 @@
 The training and testing experiments are conducted using PyTorch 1.10.1 with four GeForce RTX 2080Ti GPUs with 11GB Memory.
 - Python 3.8
 ```
-conda create -n mp-vos python=3.8
+conda create -n gfa python=3.8
 ```
 Other minor Python modules can be installed by running
 ```
@@ -88,7 +88,7 @@ python test.py --img_size 512 --save_dir runs/GFA/test --use_flip -v DAVIS-2016 
 
 ## Final weight
 
-- The final weight can be downloaded from [GFA](https://anonymfile.com/YPeR8/gfa.pth).
+- The final weight can be downloaded from [GFA]().
 
 ## Evaluation Metrics
 

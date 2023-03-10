@@ -24,17 +24,20 @@ The structure of datasets is as follows:
   |—— DAVIS-2016
     |—— train
       |—— images
-        |—— 00000.jpg
-        |—— 00001.jpg
-        |—— ...
+        |—— bear
+          |—— 00000.jpg
+          |—— 00001.jpg
+          |—— ...
       |—— flows
-        |—— 00000.jpg
-        |—— 00001.jpg
-        |—— ...
-      |—— labels 
-        |—— 00000.png
-        |—— 00001.png
-        |—— ...
+        |—— bear
+          |—— 00000.jpg
+          |—— 00001.jpg
+          |—— ...
+      |—— labels
+        |—— bear
+          |—— 00000.png
+          |—— 00001.png
+          |—— ...
     |—— val
       |—— images
       |—— flows

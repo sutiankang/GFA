@@ -50,7 +50,6 @@ def test():
     device = torch.device(args.device)
     model = create_model(args)
     model.to(device)
-    # use different seed trained best model weights ensemble can improve performance
     model = Ensemble(model, args.weights)()
 
     if isinstance(args.val_datasets, str):

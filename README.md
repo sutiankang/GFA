@@ -61,7 +61,7 @@ python test.py --img_size 512 --save_dir runs/GFA/test --use_flip -v DAVIS-2016 
 
 ## Final weight
 
-- The final weight can be downloaded from [GFA](https://anonymfile.com/2qxN1/gfa.pth).
+- The final weight can be downloaded from [GFA](https://anonymfile.com/68B9l/gfa.pth).
 
 ## Evaluation Metrics
 

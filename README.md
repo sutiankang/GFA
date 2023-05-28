@@ -10,7 +10,7 @@
 
 ### Metrics on DAVIS-2016, FBMS, DAVSOD, ViSal, MCL and SegTrack--V2 for VSOD
 
-<img src="https://user-images.githubusercontent.com/61399929/241560990-ecd69a20-a2a7-493a-a38d-fc2f24a46579.png" width="100px">
+<img src="https://user-images.githubusercontent.com/61399929/241560990-ecd69a20-a2a7-493a-a38d-fc2f24a46579.png" width="50px">
 
 ## Prerequisites
 The training and testing experiments are conducted using PyTorch 1.10.1 with four GeForce RTX 2080Ti GPUs with 11GB Memory.

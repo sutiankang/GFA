@@ -6,7 +6,7 @@
 ![YTBOJ](https://user-images.githubusercontent.com/61399929/241560756-15c2e809-3805-4a37-b85b-edf434687d20.png)
 
 ### Metrics on DAVIS-2016 and FBMS for UVOS
-<img src="https://user-images.githubusercontent.com/61399929/241560874-cfbcab5c-d6c1-4e12-a249-f159b3926e92.png" width="400">
+<img src="https://user-images.githubusercontent.com/61399929/241560874-cfbcab5c-d6c1-4e12-a249-f159b3926e92.png" width="450">
 
 ### Metrics on DAVIS-2016, FBMS, DAVSOD, ViSal, MCL and SegTrack--V2 for VSOD
 ![SALIENCY](https://user-images.githubusercontent.com/61399929/241560990-ecd69a20-a2a7-493a-a38d-fc2f24a46579.png)
